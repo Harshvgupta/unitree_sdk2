@@ -25,3 +25,4 @@ add_executable(h1_arm_sdk_dds_example example/humanoid/high_level/h1_arm_sdk_dds
 add_executable(h1_loco_example_client example/humanoid/high_level/h1_loco_example_client.cpp)
 add_executable(h1_low_level_example example/humanoid/low_level/humanoid.cpp)
 add_executable(h1_hand_example example/humanoid/low_level/inspire_hand.cpp)
+add_executable(robot_controller_node main.cpp robot_controller.cpp)
